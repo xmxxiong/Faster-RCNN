@@ -40,10 +40,10 @@ parser.add_option("--config_filename", dest="config_filename", help="Location to
                                                                     " training (to be used when testing).",
                   default="config.pickle")
 parser.add_option("--output_weight_path", dest="output_weight_path", help="Output path for weights.",
-                  default='F:/GitHub/keras-frcnn-master/train_log/model_frcnn.hdf5')
+                  default='F:/GitHub/GitHub/Faster-RCNN/train_log/model_frcnn.hdf5')
 parser.add_option("--input_weight_path", dest="input_weight_path",
                   help="Input path for weights. If not specified, will try to load default weights provided by keras.",
-                  default='F:/GitHub/keras-frcnn-master/weigths_file/resnet50_weights_tf_dim_ordering_tf_kernels_notop.h5')
+                  default='F:/GitHub/Faster-RCNN/weigths_file/resnet50_weights_tf_dim_ordering_tf_kernels_notop.h5')
 
 (options, args) = parser.parse_args()
 
